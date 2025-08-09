@@ -1,0 +1,15 @@
+{
+  "name": "assesment-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "SOLID Principles Assessment",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

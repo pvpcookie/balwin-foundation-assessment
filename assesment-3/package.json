@@ -1,0 +1,15 @@
+{
+  "name": "assesment-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Data Structures Assessment",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
