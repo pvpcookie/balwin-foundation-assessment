@@ -52,11 +52,6 @@ code-test/
 │   ├── index.test.js     # Test suite
 │   ├── package.json      # Dependencies
 │   └── README.md         # Detailed instructions
-└── .answers/             # Reference solutions (instructors only)
-    ├── assesment-1/      # Complete SOLID implementations
-    ├── assesment-2/      # Complete algorithm implementations
-    ├── assesment-3/      # Complete data structure implementations
-    └── README.md         # Answer key documentation
 ```
 
 ## Quick Start
