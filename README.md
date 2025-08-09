@@ -15,7 +15,7 @@ Each assessment is designed to test both theoretical understanding and practical
 ### Clone the Repository
 ```bash
 # Clone the assessment suite
-git clone [REPO_URL_TO_BE_FILLED_IN]
+git clone git@github.com:pvpcookie/balwin-foundation-assessment.git
 cd code-test
 
 # Or download as ZIP and extract
@@ -135,47 +135,6 @@ Each assessment uses a comprehensive grading framework:
 - **Developing (70-79%)**: Basic requirements met, some areas need improvement
 - **Needs Improvement (<70%)**: Significant gaps in understanding or implementation
 
-## Time Recommendations
-
-### For Students
-- **Total Time**: 9-12 hours across all assessments
-- **Approach**: Start with Assessment 1, progress through 2 and 3
-- **Strategy**: Focus on correctness first, then optimize
-
-### For Instructors
-- **Review Time**: 30-45 minutes per student per assessment
-- **Focus Areas**: Look for understanding of core concepts, not just working code
-- **Feedback**: Provide specific guidance on areas for improvement
-
-## Using These Assessments
-
-### For Educational Institutions
-- Use as midterm or final projects
-- Break into smaller assignments over a semester
-- Adapt difficulty based on course level
-
-### For Interview Processes
-- Select specific sections based on role requirements
-- Use as take-home or pair programming exercises
-- Focus on problem-solving approach, not just solutions
-
-### For Self-Assessment
-- Work through assessments to identify knowledge gaps
-- Use as preparation for technical interviews
-- Practice implementing fundamental concepts from scratch
-
-## Additional Resources
-
-### Recommended Study Materials
-- **SOLID Principles**: "Clean Code" by Robert C. Martin
-- **Algorithms**: "Introduction to Algorithms" by Cormen et al.
-- **Data Structures**: "Data Structures and Algorithms in JavaScript"
-
-### Online Practice
-- LeetCode for algorithm practice
-- HackerRank for data structure problems
-- Codewars for general problem solving
-
 ## Support and Feedback
 
 ### Common Issues
@@ -188,23 +147,6 @@ Each assessment uses a comprehensive grading framework:
 - Use console.log() for debugging
 - Start with simpler functions and build complexity gradually
 - Review test cases to understand expected behavior
-
-## Assessment Validation Status
-
-### Test Suite Validation Results
-✅ **Assessment Suite Successfully Validated**
-
-**Base Assessments (Student Templates):**
-- Assessment 1 (SOLID): 9 failed ❌, 12 passed ✅ (Controlled 57% failure rate)
-- Assessment 2 (Algorithms): 42 failed ❌, 4 passed ✅ (Controlled 91% failure rate)  
-- Assessment 3 (Data Structures): 47 failed ❌, 7 passed ✅ (Controlled 87% failure rate)
-
-**Answer Keys (Reference Solutions):**
-- `.answers/assesment-1`: 21/21 passed ✅ (Perfect 100% pass rate)
-- `.answers/assesment-2`: 46/46 passed ✅ (Perfect 100% pass rate)
-- `.answers/assesment-3`: 54/54 passed ✅ (Perfect 100% pass rate)
-
-**Total Coverage:** 121 comprehensive tests across all assessments
 
 ### Git Repository Setup
 
@@ -224,12 +166,6 @@ git clone [YOUR_REPOSITORY_URL]
 cd code-test
 ```
 
-### Repository Structure Notes
-- **Base assessments** contain empty implementation templates with TODO comments
-- **Answer keys** (.answers/) contain complete reference implementations
-- **Grading criteria tests** always pass to provide assessment guidelines
-- **Functional tests** fail appropriately until students implement solutions
-
 ## Assessment Philosophy
 
 These assessments are designed to:
@@ -238,17 +174,7 @@ These assessments are designed to:
 - **Provide practical experience** with real-world coding challenges
 - **Build confidence** in core programming concepts
 
----
-
-**Ready for Deployment** 🚀 | **Total Tests: 121** | **Coverage: SOLID + Algorithms + Data Structures**
-- **Prepare students** for professional development environments
-
-Success in these assessments indicates readiness for:
-- Junior to mid-level development positions
-- Advanced computer science coursework
-- Technical interviews at software companies
-- Independent software development projects
-
+--- 
 ## License
 
 This assessment suite is designed for educational use. Feel free to adapt and modify for your specific needs while maintaining the educational integrity of the exercises.
