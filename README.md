@@ -148,24 +148,6 @@ Each assessment uses a comprehensive grading framework:
 - Start with simpler functions and build complexity gradually
 - Review test cases to understand expected behavior
 
-### Git Repository Setup
-
-```bash
-# Initialize repository (for instructors deploying)
-git init
-git add .
-git commit -m "Initial commit: Core Coding Skills Assessment Suite"
-
-# Set up remote repository
-git remote add origin [YOUR_REPOSITORY_URL]
-git branch -M main
-git push -u origin main
-
-# Clone for students
-git clone [YOUR_REPOSITORY_URL]
-cd code-test
-```
-
 ## Assessment Philosophy
 
 These assessments are designed to:
